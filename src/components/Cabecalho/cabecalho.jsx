@@ -8,7 +8,6 @@ export default function Cabecalho() {
         <> 
             <header className="bg-grey-300 h-18">     
                 <h1> Área Cliente </h1> 
-
                 <nav className="flex justify-around">
                     <Link className="cabecalho-links" href="/contratacao"> Constratação</Link>
                     <Link className="cabecalho-links" href="/vistoria"> Vistoria</Link>
