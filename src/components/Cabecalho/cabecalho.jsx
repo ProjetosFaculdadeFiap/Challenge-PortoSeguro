@@ -7,20 +7,22 @@ export default function Cabecalho() {
         <>
             <header>
                 <div className="flex items-center justify-between rounded-b-xl border-t-2">
+
+                <div className="flex items-center">
+                        <Image
+                            src="/img/logo-porto01.png"
+                            alt="Logo Porto"
+                            width={100}
+                            height={50}
+                        />
+                    </div>
+                    
                     <div>
                         <a href="https://www.portoseguro.com.br/pdc/login">
                             <button className="border-2 border-blue-600 rounded-2xl text-blue-600 shadow-sm p-1 px-2 m-2">
                                 Área Cliente
                             </button>
                         </a>
-                    </div>
-                    <div className="flex items-center">
-                        <Image
-                            src="/img/logo-porto01.png"
-                            alt="Logo Porto"
-                            width={200}
-                            height={100}
-                        />
                     </div>
                 </div>
 
