@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    * {
+        background-color: #fff; }
+
+        .cabecalho-links {
+            @apply block xl:p-5 sm:p-2 md:p-3 hover:border-pink-600 transition-all duration-500 ease-out rounded font-bold;}
+}
