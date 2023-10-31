@@ -8,7 +8,7 @@ export default function Cabecalho() {
             <header>
                 <div className="flex items-center justify-between rounded-b-xl border-t-2">
 
-                <div className="flex items-center">
+                <div className="flex items-center px-5 m-5">
                         <Image
                             src="/img/logo-porto01.png"
                             alt="Logo Porto"
@@ -19,7 +19,7 @@ export default function Cabecalho() {
                     
                     <div>
                         <a href="https://www.portoseguro.com.br/pdc/login">
-                            <button className="border-2 border-blue-600 rounded-2xl text-blue-600 shadow-sm p-1 px-2 m-2">
+                            <button className="border-2 border-blue-600 rounded-2xl text-blue-600 shadow-sm p-1 px-3 m-3">
                                 Área Cliente
                             </button>
                         </a>
