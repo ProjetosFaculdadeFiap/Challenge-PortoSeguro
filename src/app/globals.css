@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
     * {
         padding: 0%;
         margin: 0%;
@@ -10,4 +11,5 @@
 
         .cabecalho-links {
             @apply block xl:p-5 sm:p-2 md:p-3 font-bold; }
+
 }
