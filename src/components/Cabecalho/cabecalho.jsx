@@ -27,10 +27,10 @@ export default function Cabecalho() {
                 </div>
 
                 <nav className="flex justify-around bg-neutral-300">
-                    <Link className="cabecalho-links" href="https://www.portoseguro.com.br/"> Contratação </Link>
-                    <Link className="cabecalho-links" href="/vistoria"> Vistoria</Link>
-                    <Link className="cabecalho-links" href="https://www.portoseguro.com.br/canal-de-ajuda"> Ajuda</Link>
-                    <Link className="cabecalho-links" href="https://www.portoseguro.com.br/institucional/sobre-a-porto-seguro"> Sobre Nós</Link>
+                    <Link className="cabecalho-links" href="/porto">Porto Seguro</Link>
+                    <Link className="cabecalho-links" href="/vistoria">Vistoria</Link>
+                    <Link className="cabecalho-links" href="https://www.portoseguro.com.br/canal-de-ajuda">Ajuda</Link>
+                    <Link className="cabecalho-links" href="/sobre">Sobre Nós</Link>
                 </nav>
             </header>
         </>
