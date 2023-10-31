@@ -6,7 +6,7 @@ export default function Rodape () {
             <footer className="bg-neutral-400 h-35 fixed w-full bottom-0">
             <div className="flex items-center justify-end rounded-b-xl border-t-2">
 
-            <div> 
+            <div className="flex "> 
                 <a href="https://www.portoseguro.com.br/pdc/login">
                     <button className="border-2 border-black rounded-2x1 text-black shadow-sm p-1 px-5 m-5">
                         Parceiros e Investidores
