@@ -23,10 +23,13 @@ export default function Cabecalho() {
                                 Área Cliente
                             </button>
                         </a>
+
                     </div>
+
+
                 </div>
 
-                <nav className="flex justify-around bg-neutral-300 border-4">
+                <nav className="flex justify-around bg-neutral-300 border-none p-2">
                     <Link className="cabecalho-links" href="/porto">Contratação</Link>
                     <Link className="cabecalho-links" href="/vistoria">Vistoria</Link>
                     <Link className="cabecalho-links" href="https://www.portoseguro.com.br/canal-de-ajuda">Ajuda</Link>
