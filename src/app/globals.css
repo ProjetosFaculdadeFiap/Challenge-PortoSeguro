@@ -15,8 +15,8 @@
         text-decoration: none;
         color: black; /* Cor Principal */
         transition: color 0.5s; /* Adiciona uma transição suave de cor ao passar o mouse */
-      }  .cabecalho-links:hover {
-        color: #065f8865; /* Cor Secundária*/ }
+    }  .cabecalho-links:hover {
+        color: rgba(113, 191, 254, 0.698); /* Cor Secundária*/ }
 
             /* Criação do contéudo da página inicial (page.jsx) */ 
             .card1{
@@ -24,7 +24,7 @@
                 text-align: start;
                 justify-content: center;
                 align-items: center;
-                background-color: rgba(96, 205, 255, 0.397);
+                background-color: rgba(124, 213, 255, 0.397);
                 border: solid 2px black;
                 border-radius: 20px;
             }
