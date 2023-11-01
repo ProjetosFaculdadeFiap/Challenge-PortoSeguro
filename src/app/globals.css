@@ -12,8 +12,12 @@
     html {
         height: 110%;
     }
-        .cabecalho-links {
-            @apply block xl:p-5 sm:p-2 md:p-3 font-bold; }
+    .cabecalho-links {
+        text-decoration: none;
+        color: black; /* Cor Principal */
+        transition: color 0.5s; /* Adiciona uma transição suave de cor ao passar o mouse */
+      }  .cabecalho-links:hover {
+        color: #065f8865; /* Cor Secundária*/ }
 
             /* Criação do contéudo da página inicial (page.jsx) */ 
             .card1{

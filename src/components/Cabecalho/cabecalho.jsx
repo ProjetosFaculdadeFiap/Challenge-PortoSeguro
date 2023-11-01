@@ -6,9 +6,9 @@ export default function Cabecalho() {
     return (
         <>
             <header>
-                <div className="flex items-center justify-between rounded-b-xl border-t-2">
+                <div className="flex items-center justify-between rounded-b-xl ">
 
-                <div className="flex items-center px-5 m-5">
+                    <div className="flex items-center px-5 m-5">
                         <Image
                             src="/img/logo-porto01.png"
                             alt="Logo Porto"
@@ -26,7 +26,7 @@ export default function Cabecalho() {
                     </div>
                 </div>
 
-                <nav className="flex justify-around bg-neutral-300">
+                <nav className="flex justify-around bg-neutral-300 border-4">
                     <Link className="cabecalho-links" href="/porto">Contratação</Link>
                     <Link className="cabecalho-links" href="/vistoria">Vistoria</Link>
                     <Link className="cabecalho-links" href="https://www.portoseguro.com.br/canal-de-ajuda">Ajuda</Link>
@@ -36,5 +36,3 @@ export default function Cabecalho() {
         </>
     );
 }
-
-
