@@ -18,9 +18,9 @@ export default function Cabecalho() {
                     </div>
                     
                     <div>
-                        <a href="https://www.portoseguro.com.br/pdc/login">
+                        <a href="/cadastro">
                             <button className="border-2 border-blue-400 rounded-2xl text-blue-400 shadow-sm p-1 px-3 m-3">
-                                Área Cliente
+                                Área Cliente/ Login 
                             </button>
                         </a>
 
