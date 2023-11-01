@@ -9,7 +9,7 @@
         margin: 0%;     }
 
     html {
-        height: 110%;
+        height: 150%;
     }
     .cabecalho-links {
         text-decoration: none;
@@ -32,10 +32,12 @@
                 list-style: block;
             }
 
-        /* CSS VISTORIA */ 
+        /* CSS VISTORIA + CONTRATAÇÃO */ 
         #lin_grad {
             height: 100vh;  
             background-image: linear-gradient(rgb(168, 226, 245), rgb(255, 255, 255)); 
         }
+
+
 
 }
