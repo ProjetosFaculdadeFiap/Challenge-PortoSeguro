@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Explicação Projeto Porto Seguro
+    branch main | apenas corpo do projeto 
+    branch mari | projeto completo ^^ 
 
-## Getting Started
+Membros: 
+Felipe Moraes Silva - RM 98455
+Gabriel Ribeiro Costa - RM 551727
+Gustavo Moreira Golçalves - RM 97999
+Mariana Neugebauer Dourado - RM 550494
+Vinícius de Alencar Chagas - RM 55016
 
-First, run the development server:
+Começamos com o projeto dentro da Components tendo o Cabecalho + Rodape dá página
+que serão estáticos, já que se manterão o mesmo entre todas as outras páginas. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Cabecalho 
+    - Ele contém logo Porto Seguro 
+    - Área Clinte (link que leva você até uma página da Porto)
+    - Links de outras páginas (links dinâmicos)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Conteudo (página principal)
+    Deixamos dentro da primeira página sobre o nosso projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Rodape
+    - Ele contém logo Porto Seguro 
+    - Parceiros e Investidores (link que leva você até uma página da Porto)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Páginas Dinâmicas
+    - VISTORIA 
+Dento da Vistoria utilizamos um comando para fazer uma cor degradê
+    <div id="lin_grad"></div> 
+    - https://acervolima.com/como-criar-um-fundo-gradiente-linear-usando-css/ (Aonde aprendemos a utlizar)
 
-## Learn More
+    - PORTO 
 
-To learn more about Next.js, take a look at the following resources:
+Página Erro404 
+    - Localizada na not-found.jsx ela está localizada caso de um erro de página, surgindo para guiar nosso cliente. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
