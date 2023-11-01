@@ -8,6 +8,10 @@
         padding: 0%;
         margin: 0%;
      }
+
+    html {
+        height: 110%;
+    }
         .cabecalho-links {
             @apply block xl:p-5 sm:p-2 md:p-3 font-bold; }
 
