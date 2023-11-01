@@ -6,8 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
     * {
         padding: 0%;
-        margin: 0%;
-     }
+        margin: 0%;     }
 
     html {
         height: 110%;
@@ -33,6 +32,10 @@
                 list-style: block;
             }
 
-
+        /* CSS VISTORIA */ 
+        #lin_grad {
+            height: 100vh;  
+            background-image: linear-gradient(rgb(168, 226, 245), rgb(255, 255, 255)); 
+        }
 
 }
