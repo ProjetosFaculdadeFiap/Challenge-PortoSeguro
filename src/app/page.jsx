@@ -20,6 +20,16 @@ export default function Home() {
                     </ol>
                 </div>
             </div>
+          
+          <div className="p-1 px-5"> 
+            <h1> Lista de Membros - <strong> Tropinha do Challenge </strong> </h1>
+              <p>  Felipe Moraes Silva - RM 98455 <br />
+              Gabriel Ribeiro Costa - RM 551727 <br />
+              Gustavo Moreira Golçalves - RM 97999 <br />
+              Mariana Neugebauer Dourado - RM 550494 <br />
+              Vinícius de Alencar Chagas - RM 550167 <br />
+              </p>
+          </div>
 
     </> 
   )
