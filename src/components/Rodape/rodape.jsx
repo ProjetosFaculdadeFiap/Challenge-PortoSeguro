@@ -22,41 +22,6 @@ export default function Rodape () {
                                 height={50} />
                 </div>
             </div>
-
-            <div className="flex justify-end px-5 m-5">
-                <div className="text-white">
-                    <p>Acompanhe a Porto nas redes sociais</p> <br />
-
-                    <div className="flex justify-end">
-                        <a href="http://facebook.com">
-                            <Image
-                                src="/img/facebook.png"
-                                alt="Facebook Logo"
-                                width={30}
-                                height={30}
-                                style={{ marginRight: '5px' }} // Aplicando margin a direita de 5px
-                            />
-                        </a>
-
-                        <a href="http://twitter.com">
-                            <Image
-                                src="/img/twitter.png"
-                                alt="Twitter Logo"
-                                width={30}
-                                height={30}
-                                style={{ marginRight: '5px' }} 
-                            />
-                        </a>
-
-                        <a href="http://instagram.com">
-                            <Image
-                                src="/img/instagram.png"
-                                alt="Instagram Logo"
-                                width={30}
-                                height={30} /> </a>
-                    </div>
-                </div>
-            </div>
             </footer>
         </>
     )
