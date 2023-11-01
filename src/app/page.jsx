@@ -27,8 +27,10 @@ export default function Home() {
               Gabriel Ribeiro Costa - RM 551727 <br />
               Gustavo Moreira Golçalves - RM 97999 <br />
               Mariana Neugebauer Dourado - RM 550494 <br />
-              Vinícius de Alencar Chagas - RM 550167 <br />
+              Vinícius de Alencar Chagas - RM 550167
               </p>
+
+              <br /> <a href="https://github.com/tropinha-do-xelengi"> <strong> Localização do nosso repositório :D </strong> </a>
           </div>
 
     </> 
