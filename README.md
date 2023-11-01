@@ -30,7 +30,10 @@ Dento da Vistoria utilizamos um comando para fazer uma cor degradê
     <div id="lin_grad"></div> 
     - https://acervolima.com/como-criar-um-fundo-gradiente-linear-usando-css/ (Aonde aprendemos a utlizar)
 
-    - PORTO 
+Utilizamos tanto a estilização em Tailwind quanto em Css
+optamos por usar CSS para páginas e o Tailwind para cada componente em específico
+
+
 
 Página Erro404 
     - Localizada na not-found.jsx ela está localizada caso de um erro de página, surgindo para guiar nosso cliente. 
