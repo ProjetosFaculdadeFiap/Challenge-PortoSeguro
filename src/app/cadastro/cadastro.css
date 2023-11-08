@@ -54,7 +54,8 @@ input {
     transition: background-color 0.5s ease;
 
     position: absolute;
-    left: 45%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .botao-login:hover{
     background-color: #72b5e9;

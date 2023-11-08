@@ -41,7 +41,7 @@ export default function Vistoria() {
 
                 <div> 
                     <a href="/">
-                        <button className="botao-vistoria">
+                        <button className="botao-porto">
                             Projeto: Porto Seguro
                         </button>
                     </a>
