@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import './vistoria.css'
 
 export default function Vistoria() {
@@ -46,6 +45,8 @@ export default function Vistoria() {
                         </button>
                     </a>
                 </div>
+
+
             </div> 
         </>
     )
