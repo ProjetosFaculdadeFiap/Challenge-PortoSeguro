@@ -34,8 +34,9 @@
 
         /* CSS VISTORIA + CONTRATAÇÃO */ 
         #lin_grad {
+            padding: 2%;
             height: 100vh;  
-            background-image: linear-gradient(rgb(168, 226, 245), rgb(255, 255, 255)); 
+            background-image: linear-gradient(rgb(201, 240, 253), rgb(255, 255, 255)); 
         }
 
 }
