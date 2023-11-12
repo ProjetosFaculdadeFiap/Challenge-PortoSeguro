@@ -23,11 +23,12 @@ export default function Home() {
           
           <div className="p-1 px-5"> 
             <h1> Lista de Membros - <strong> Tropinha do Challenge </strong> </h1>
-              <p>  Felipe Moraes Silva - RM 98455 <br />
-              Gabriel Ribeiro Costa - RM 551727 <br />
-              Gustavo Moreira Golçalves - RM 97999 <br />
-              Mariana Neugebauer Dourado - RM 550494 <br />
-              Vinícius de Alencar Chagas - RM 550167
+              <p>  Felipe Moraes Silva - RM 98455 <strong> 1TDSPL </strong> <br />
+              Gabriel Ribeiro Costa - RM 551727 <strong> 1TDSPM </strong> <br />
+              Gustavo Moreira Golçalves - RM 97999 <strong> 1TDSPL </strong>  <br />
+              Helena Cristina Rocha Medeiros - RM 551873 <strong> 1TDSPM </strong> <br />
+              Mariana Neugebauer Dourado - RM 550494 <strong> 1TDSPL </strong>  <br />
+              Vinícius de Alencar Chagas - RM 550167 <strong> 1TDSPL </strong>  
               </p>
 
               <br /> <a href="https://github.com/tropinha-do-xelengi"> <strong> Localização do nosso repositório :D </strong> </a>
