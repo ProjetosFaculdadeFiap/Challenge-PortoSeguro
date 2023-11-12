@@ -35,28 +35,3 @@ input {
     .botao-cadastro:hover {
         background-color: #727d84;
     }
-
-
-
-/* Botão para Login */
-.botao-login {
-    background-color: #1262a4;
-    border: none;
-    color: #fff;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.5s ease;
-
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.botao-login:hover{
-    background-color: #72b5e9;
-}
