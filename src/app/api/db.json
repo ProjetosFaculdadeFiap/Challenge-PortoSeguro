@@ -1,0 +1,28 @@
+{
+    "bikes": [
+      {
+        "marca": "Caloi",
+        "preco": 1200.00,
+        "modelo": "Elite Carbon",
+        "modalidade": "Mountain Bike"
+      },
+      {
+        "marca": "Specialized",
+        "preco": 2500.00,
+        "modelo": "Roubaix",
+        "modalidade": "Estrada"
+      },
+      {
+        "marca": "Trek",
+        "preco": 1800.00,
+        "modelo": "Fuel EX",
+        "modalidade": "Trilha"
+      },
+      {
+        "marca": "Giant",
+        "preco": 3200.00,
+        "modelo": "Defy Advanced",
+        "modalidade": "Estrada"
+      }
+    ]
+  }
