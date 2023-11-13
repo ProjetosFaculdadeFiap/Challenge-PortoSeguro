@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+
             
-}
+
+@layer components {
+    .lista-propostas{
+    list-style: block;
+    }
+    /* CSS VISTORIA + CONTRATAÇÃO */
+    #lin_grad {
+    padding: 2%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(201, 240, 253), rgb(255, 255, 255));
+    }
+    }
+    
