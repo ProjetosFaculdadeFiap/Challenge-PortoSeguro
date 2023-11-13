@@ -5,7 +5,7 @@ Tropinha do Challenge
     Helena | home + estilização global + estilização tailwind 
     Vini | not-found + página vistoria
     felipe | vistoria estilização + cadastro 
-    gabriel Ribeiro| login + estilização 
+    gabriel | login + estilização 
     mari | API + cadastro e login + contratação 
 
 
