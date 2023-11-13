@@ -35,3 +35,13 @@ input {
     .botao-cadastro:hover {
         background-color: #727d84;
     }
+
+    .destaque-mouse {
+        text-decoration: none;
+        color: black; /* Cor Principal */
+        transition: color 0.5s; /* Adiciona uma transição suave de cor ao passar o mouse */ }
+    
+    .destaque-mouse:hover {
+        color: #2897f1b2; /* Cor Secundária*/ }
+
+    

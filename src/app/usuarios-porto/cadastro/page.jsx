@@ -43,25 +43,26 @@ export default function Cadastro() {
                 <fieldset className="form-fieldset">
                     <legend className="mb-2 font-bold">Crie seu conta</legend> 
                     <div>
-                        <input
+                        <input className='w-full border border-2 rounded-md py-2 px-3'
                         type="text"  name="nome" id="idNome"
                         placeholder="Digite seu nome:" value={novoUsuario.nome} onChange={handleChange} />
                     </div>
 
                     <div>
-                        <input 
+                        <input className='w-full border border-2 rounded-md py-2 px-3'
                          type="email" name="email" id="idEmail" 
                          placeholder="Digite seu e-mail:" value={novoUsuario.email} onChange={handleChange} />
                     </div>
 
                     <div>
-                        <input type="password" name="senha" id="idSenha"
+                        <input className='w-full border border-2 rounded-md py-2 px-3'
+                        type="password" name="senha" id="idSenha"
                         placeholder="Crie uma senha:" value={novoUsuario.senha} onChange={handleChange} />
                     </div>
 
                     <div> 
                         <button className="botao-cadastro" type="submit">  Cadastrar </button>
-                        <Link href='/usuarios-porto/login'> Já possui conta?</Link>
+                        <Link className="destaque-mouse" href='/usuarios-porto/login'> Já possui conta?</Link>
                     </div>
                 </fieldset>
                 </form>
