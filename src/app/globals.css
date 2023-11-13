@@ -3,39 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-        * {
-        padding: 0%;
-        margin: 0%;     }
 
-    html {
-        height: 150%;
-    }
-    .cabecalho-links {
-        text-decoration: none;
-        color: black; /* Cor Principal */
-        transition: color 0.5s; /* Adiciona uma transição suave de cor ao passar o mouse */
-    }  .cabecalho-links:hover {
-        color: rgba(113, 191, 254, 0.698); /* Cor Secundária*/ }
 
-            /* Criação do contéudo da página inicial (page.jsx) */ 
-            .card1{
-                display: flex;
-                text-align: start;
-                justify-content: center;
-                align-items: center;
-                background-color: rgba(124, 213, 255, 0.397);
-                border: solid 2px black;
-                border-radius: 20px;
-            }
-            .lista-propostas{
-                list-style: block;
-            }
-
-        /* CSS VISTORIA + CONTRATAÇÃO */ 
-        #lin_grad {
-            padding: 2%;
-            height: 100vh;  
-            background-image: linear-gradient(rgb(201, 240, 253), rgb(255, 255, 255)); 
-        }
-
+            
 }
