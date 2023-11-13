@@ -1,5 +1,6 @@
 import './vistoria.css'
 
+
 export default function Vistoria() {
     return (
         <> 

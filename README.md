@@ -1,12 +1,20 @@
 Tropinha do Challenge 
     Branchs: 
-    main | sendo a base do projeto 
-    Gustavo | cabecalho + rodape + estilização + imagens porto01 e porto02 + icons de mídias
-    Helena | home + estilização global + estilização tailwind 
-    Vini | not-found + página vistoria
-    felipe | vistoria estilização + cadastro 
-    gabriel | login + estilização 
-    mari | API + cadastro e login + contratação 
+    main 
+    Gustavo
+    Helena 
+    Vini 
+    felipe 
+    gabriel 
+    mari 
 
+Explicação partes do código: 
+Resolvemos fazer a página "principal" sendo a página do projeto. Aonde ela contém, a lista de membros, a descrição, e a nossa solução proposta. 
 
-    
+Pasta Vistoria: 
+Localização da nossa página de contratação de vistoria
+
+Pasta Porto: 
+Localização da nossa página de porto seguro, ela está com todo o conteúdo principal de uma página da porto sobre bikes. 
+
+Páginas de Sobre Nós + Ajuda: são apenas páginas que levam ao site da porto seguro

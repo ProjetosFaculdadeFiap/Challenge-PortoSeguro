@@ -18,7 +18,7 @@ export default function Cabecalho() {
                     </div>
                     
                     <div>
-                        <a href="/api/users/login">
+                        <a href="/usuarios-porto/login">
                             <button className="border-2 border-blue-400 rounded-2xl text-blue-400 shadow-sm p-1 px-3 m-3">
                                 Área Cliente/ Login 
                             </button>
@@ -30,7 +30,7 @@ export default function Cabecalho() {
                 </div>
 
                 <nav className="flex justify-around bg-neutral-300 border-none p-2">
-                    <Link className="cabecalho-links" href="/porto">Contratação</Link>
+                    <Link className="cabecalho-links" href="/porto">Porto Seguro</Link>
                     <Link className="cabecalho-links" href="/vistoria">Vistoria</Link>
                     <Link className="cabecalho-links" href="https://www.portoseguro.com.br/canal-de-ajuda">Ajuda</Link>
                     <Link className="cabecalho-links" href="https://www.portoseguro.com.br/institucional/sobre-a-porto-seguro">Sobre Nós</Link>

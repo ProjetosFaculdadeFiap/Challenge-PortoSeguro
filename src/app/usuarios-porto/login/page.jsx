@@ -13,7 +13,7 @@ export default function LoginPage() {
 
                         <div> 
                             <button className='botao-login' type="submit"> Entrar </button>
-                            <Link href='/api/users/cadastro'> Ainda não possui conta?</Link>
+                            <Link href='/usuarios-porto/cadastro'> Ainda não possui conta?</Link>
                         </div> 
                     </form>
             </div>
