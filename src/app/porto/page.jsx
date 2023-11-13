@@ -27,4 +27,13 @@ export default function Porto() {
                             alt="Um casal utilizando uma bicicleta"
                             width={206}
                             height={50} />
+                        <Image
+                            src="/img/ciclista1.png"
+                            alt="Uma pessoa andando de bike"
+                            width={220}
+                            height={50} />
+                    </div>
+            </div>
+            
+
                             
