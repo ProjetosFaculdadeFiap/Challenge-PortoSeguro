@@ -56,7 +56,7 @@ export default function Porto() {
             
             </div>
 
-            <div className="px-10 flex justify-evenly mb-8">
+            <div className="px-10 flex justify-evenly mb-10">
                 <div className="flex items-center">
                     <div className="mr-4">
                         <Image 
@@ -118,7 +118,7 @@ export default function Porto() {
                 </div>
             </div>
 
-            <div className="px-10 flex justify-evenly"> 
+            <div className="px-10 flex justify-evenly mb-20"> 
                 <div className="flex items-center">
                     <div className="mr-4">  
                         <Image 
@@ -161,9 +161,22 @@ export default function Porto() {
                     <div>
                         <h4 className="text-1xl font-bold mb-2">Danos Elétricos</h4> 
                         <p className="text-sm"> Cobre os danos causados por oscilações de energia, descargas elétricas <br /> e curtos-circuitos em bikes elétricas. </p>
-                    </div>
+                    </div> 
                 </div>
             </div> 
+
+            <div className="px-10 mb-10"> 
+                <h1 className="text-2xl"> Todo cuidado é Porto: seguro completo e com serviços para a sua bike.</h1>
+                    <p className="mb-4"> Além de ser o seguro mais completo do mercado, com o Seguro Bike da Porto Seguro, você conta agora com novos planos de serviços que trarão muito mais segurança para você e cuidados para a sua bicicleta.</p>
+            </div>
+
+            <div className="px-10 mb-4"> 
+                <h1 className="text-2xl"> Conheça nossos planos de serviços: </h1>
+
+
+                
+            </div>
+
         </div> 
     </>
     )
