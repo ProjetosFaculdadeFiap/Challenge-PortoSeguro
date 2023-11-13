@@ -33,3 +33,10 @@ input {
 .botao-login:hover {
     background-color: #727d84;
 }
+.destaque-mouse {
+    text-decoration: none;
+    color: #2897f1b2; /* Cor Principal */
+    transition: color 0.5s; /* Adiciona uma transição suave de cor ao passar o mouse */ }
+
+.destaque-mouse:hover {
+    color: rgb(0, 0, 0); /* Cor Secundária*/ }

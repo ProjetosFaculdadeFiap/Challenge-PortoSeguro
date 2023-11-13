@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useState } from "react";
 import './login.css'
 
-
 export default function Login() {
   const [usuario, setUsuario] = useState({
     info: "login",
@@ -20,7 +19,7 @@ export default function Login() {
   const handleSubmit = async (evt) => {
     evt.preventDefault();
 
-    const response = await fetch("http://localhost:3000/dados/base/base-users",
+    const response = await fetch("http://localhost:3000/usuarios-porto",
       {
         method: "POST",
         body: JSON.stringify(usuario),
@@ -65,7 +64,7 @@ export default function Login() {
 
                     <div className="mt-4 text-center">
                         <span>Ainda não possui um cadastro?</span><Link href="/usuarios-porto/cadastro">
-                        <p className="text-cyan-500">Clique aqui</p> </Link>
+                        <p className="destaque-mouse">Clique aqui</p> </Link>
                     </div>
             </form>
             </div>
