@@ -88,7 +88,24 @@ export default function Porto() {
                         <br /> decorrente de acidente, além das despesas médicas, <br /> hospitalares e odontológicas.</p>
                     </div>
                 </div> 
-                
+
+                <div className="flex items-center">
+                    <div className="mr-4"> 
+                        <Image 
+                            src="/img/mundo.png"
+                            alt="Png bike"
+                            width={55}
+                            height={55}  />
+                    </div>
+                    <div> 
+                        <h4 className="text-1xl font-bold mb-2"> Cobertura Internacional </h4>
+                        <p className="text-sm">Possibilita a extensão das garantias contratadas <br/> 
+                        para sinistros que ocorrerem fora do Brasil.</p>
+                    </div>
+                </div>
+            </div>
+
+
 
 
 
