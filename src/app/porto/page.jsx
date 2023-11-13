@@ -105,6 +105,31 @@ export default function Porto() {
                 </div>
             </div>
 
+            <div className="px-10 flex justify-evenly"> 
+                <div className="flex items-center">
+                    <div className="mr-4">  
+                        <Image 
+                            src="/img/bolsa.png"
+                            alt="Png bolsa"
+                            width={55}
+                            height={55} /> 
+                    </div> 
+
+                    <div>
+                        <h4 className="text-1xl font-bold mb-2">Bike Bagagem</h4> 
+                        <p className="text-sm"> Cobre o extravio da bicicleta em viagens aéreas  e/ou rodoviárias, durante o trajeto <br />de ida e volta  de viagem do segurado, desde que tenha <br /> com o ticket de embarque. </p>
+                    </div>
+                </div> 
+
+                <div className="flex items-center">
+                    <div className="mr-4">  
+                        <Image 
+                            src="/img/escudo.png"
+                            alt="Png bolsa"
+                            width={55}
+                            height={55} /> 
+                    </div> 
+
 
 
 
