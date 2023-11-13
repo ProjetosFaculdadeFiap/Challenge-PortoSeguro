@@ -171,13 +171,57 @@ export default function Porto() {
             </div>
 
             <div className="px-10 mb-4"> 
-                <h1 className="text-2xl"> Conheça nossos planos de serviços: </h1>
-
-
+                <h1 className="text-2xl mb-5"> Conheça nossos planos de serviços: </h1>
+                </div>
                 
-            </div>
+                    <div className='px-5'>
+                    <Image 
+                        src="/img/pedal-essencial.png" 
+                        alt="Conserto" 
+                        width={200} 
+                        height={55}/>
+                            <h2 className="text-xl font-bold">Pedal Essencial </h2>
+                        <h3 className="mb-2">O plano gratuito* para você experimentar um dos serviços essenciais oferecidos, de acordo com as suas necessidades.</h3> 
+                        <a href="https://www.portoseguro.com.br/conteudo/seguros/bike/">
+                                <button className="border-2 border-blue-600 rounded-2xl text-black shadow-sm p-1 px-3 font-bold mb-6 ">
+                                    Saiba Mais
+                                </button>
+                            </a>
+                    </div>
 
-        </div> 
+                    <div className='px-5'>
+                    <Image 
+                        src="/img/pedal-leve.png" 
+                        alt="Conserto" 
+                        width={200} 
+                        height={55}/>
+                            <h2 className="text-xl font-bold">Pedal Leve </h2>
+                        <h3  className="mb-2">Você gosta de pedalar e está buscando um plano de serviços intermediário? O Pedal leve da Porto é para você.</h3> 
+                        <a href="https://www.portoseguro.com.br/conteudo/seguros/bike/">
+                                <button className="border-2 border-blue-600 rounded-2xl text-black shadow-sm p-1 px-3 font-bold mb-6 ">
+                                    Saiba Mais
+                                </button>
+                            </a>
+                    </div>
+
+                    <div className='px-5'>
+                    <Image 
+                        src="/img/pedal-elite.png" 
+                        alt="Conserto" 
+                        width={200} 
+                        height={55}/>
+                            <h2 className="text-xl font-bold">Pedal Elite </h2>
+                        <h3  className="mb-2">Conte com diversos serviços capazes de elevar suas aventuras para o próximo nível.</h3> 
+                        <a href="https://www.portoseguro.com.br/conteudo/seguros/bike/">
+                                <button className="border-2 border-blue-600 rounded-2xl text-black shadow-sm p-1 px-3 font-bold">
+                                    Saiba Mais
+                                </button>
+                            </a>
+                    </div>
+
+
+
+        </div>
     </>
     )
 }
