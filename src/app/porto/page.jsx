@@ -44,7 +44,7 @@ export default function Porto() {
                         As coberturas de responsabilidade civil organizador ou expositor são coberturas básicas e obrigatórias. As coberturas adicionais não poderão ser contratadas isoladamente. </p>
             
             </div>
-            
+
             <div className="px-10 flex justify-evenly mb-8">
                 <div className="flex items-center">
                     <div className="mr-4">
@@ -60,6 +60,35 @@ export default function Porto() {
                     e, ainda, situações em que a <br /> bicicleta estiver sendo levada por um <br /> veículo transportador.</p>
                 </div>
             </div>
+            <div className="flex items-center">
+                    <div className="mr-4"> 
+                        <Image 
+                            src="/img/ladrao.png"
+                            alt="Png bike"
+                            width={55}
+                            height={55}  />
+                    </div>
+                    <div> 
+                        <h4 className="text-1xl font-bold mb-2"> Subtração da Bike </h4>
+                        <p className="text-sm">Cobre contra roubo, ou seja, quando há ameaça direta <br />   
+                        ou uso de violência ao segurado ou arrombamento <br /> do local onde a bicicleta estiver guardada.</p>
+                    </div>
+                </div>
+                <div className="flex items-center">
+                    <div className="mr-4"> 
+                        <Image 
+                            src="/img/doente.png"
+                            alt="Png bike"
+                            width={55}
+                            height={55}  />
+                    </div>
+                    <div> 
+                        <h4 className="text-1xl font-bold mb-2"> Acidentes Pessoais </h4>
+                        <p className="text-sm">Cobre as despesas em casos de morte acidental <br/> e invalidez permanente (total ou parcial) 
+                        <br /> decorrente de acidente, além das despesas médicas, <br /> hospitalares e odontológicas.</p>
+                    </div>
+                </div> 
+                
 
 
 
