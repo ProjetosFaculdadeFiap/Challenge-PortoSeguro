@@ -18,3 +18,4 @@ Pasta Porto:
 Localização da nossa página de porto seguro, ela está com todo o conteúdo principal de uma página da porto sobre bikes. 
 
 Páginas de Sobre Nós + Ajuda: são apenas páginas que levam ao site da porto seguro
+A nossa API se tornou local, então ela pega seus dados e mostra que foi cadastrado 
