@@ -129,6 +129,16 @@ export default function Porto() {
                             width={55}
                             height={55} /> 
                     </div> 
+                    <div>
+                        <h4 className="text-1xl font-bold mb-2">Danos Elétricos</h4> 
+                        <p className="text-sm"> Cobre os danos causados por oscilações de energia, descargas elétricas <br /> e curtos-circuitos em bikes elétricas. </p>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </>
+    )
+}
 
 
 
