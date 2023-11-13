@@ -34,6 +34,33 @@ export default function Porto() {
                             height={50} />
                     </div>
             </div>
+
+            <div className="px-10">
+                <h1 className="text-2xl"> Com o Seguro Bike da Porto Seguro, é pedalar e relaxar </h1>
+                    <p className="mb-4"> O Seguro Bike é uma solução completa, que cuida não só da bicicleta e do ciclista, mas dos terceiros. <br />
+                        São garantias e serviços pensados para cada modelo e perfil de cliente, com contratação simples e rápida, sem burocracia.</p>
+                <h1 className="text-2xl "> Conheça as coberturas </h1>
+                    <p className="mb-8"> Informações resumidas. Para mais detalhes, consulte as condições gerais. <br /> 
+                        As coberturas de responsabilidade civil organizador ou expositor são coberturas básicas e obrigatórias. As coberturas adicionais não poderão ser contratadas isoladamente. </p>
             
+            </div>
+            
+            <div className="px-10 flex justify-evenly mb-8">
+                <div className="flex items-center">
+                    <div className="mr-4">
+                        <Image 
+                            src="/img/bike.png"
+                            alt="Png bike"
+                            width={55}
+                            height={55}  />
+                    </div>
+                <div>
+                    <h4 className="text-1xl font-bold mb-2"> Danos à Bike </h4>
+                    <p className="text-sm">Cobre os danos causados por incêndio, queda, <br /> tentativa de roubo
+                    e, ainda, situações em que a <br /> bicicleta estiver sendo levada por um <br /> veículo transportador.</p>
+                </div>
+            </div>
+
+
 
                             
