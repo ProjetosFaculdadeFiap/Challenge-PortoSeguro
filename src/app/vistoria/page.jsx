@@ -4,38 +4,34 @@ import { useState } from "react";
 
 export default function Vistoria() {
     const [novaBicicleta, setNovaBicicleta] = useState({
-        serie: "",
+        marca: "",
+        tipo: "",
         modelo: "",
         preco: "",
-        dataCompra: "",
-      });
+        dataCompra: "", });
     
-      // Função para manipular as mudanças nos campos da bicicleta
-      const handleChange = (evt) => {
+        const handleChange = (evt) => {
         const { name, value } = evt.target;
-        setNovaBicicleta({ ...novaBicicleta, [name]: value });
-      };
+        setNovaBicicleta({ ...novaBicicleta, [name]: value });  };
     
-      // Função para submeter o cadastro da bicicleta
-      const handleCadastro = async (evt) => {
-        evt.preventDefault();
+        const handleCadastro = async  (evt) => {
+            evt.preventDefault();
     
-        try {
-          const response = await fetch("http://localhost:8080", {
-            method: "POST",
-            body: JSON.stringify(novaBicicleta),
-          });
+                try {
+                const response = await fetch("http://localhost:8080", {
+                    method: "POST",
+                    body: JSON.stringify(novaBicicleta),
+                });
     
-          const resultado = await response.json();
-          console.log(resultado)
-          console.log(resposta.status)
-          window.location.href = "/";
-    
-        } catch (error) {
-          alert("Ocorreu um erro no cadastro da bicicleta: " + error.message);
-          // Adicione tratamento adicional ou log do erro, se necessário
-        }
-      };
+            const resultado = await response.json();
+            console.log(resultado)
+            console.log(resposta.status)
+            window.location.href = "/";
+        
+                } catch (error) {
+                alert("Seu cadastro não funcionou, tente novamente: " + error.message);
+                } };
+
     return (
         <> 
             <div id="lin_grad">
@@ -47,21 +43,21 @@ export default function Vistoria() {
                         <fieldset className="form-vistoria-holder"> 
                             <h3 className="p-5 text-center text-2xl"><strong> Bike da Porto Seguro</strong></h3>
 
-                            <div class="form-texto">
-                                <input class="formulario" type="number" min="1" step=".1" name="txtValor" id="idValor" placeholder="Qual o valor da sua Bike?" value={novaBicicleta.preco} onChange={handleChange}/>
+                            <div className="form-texto">
+                                <input class="formulario" type="text" name="preco" id="idPreco" placeholder="Qual o valor da sua Bike?" value={novaBicicleta.preco} onChange={handleChange}/>
                             </div>
                             
-                            <div class="form-texto">
-                                <input class="formulario" type="text" name="txtModelo" id="idModelo" placeholder="Qual o modelo da sua Bike?" value={novaBicicleta.modelo} onChange={handleChange} />
+                            <div className="form-texto">
+                                <input class="formulario" type="text" name="modelo" id="idModelo" placeholder="Qual o modelo da sua Bike?" value={novaBicicleta.modelo} onChange={handleChange} />
                             </div>
+
+                            <div className="form-texto"> 
+                                <input className="formulario" type="text" name="tipo"  id="idTipo" placeholder="Qual o tipo de bicicleta?" value={novaBicicleta.tipo} onChange={handleChange} />
+                            </div> 
                             
-                            <div class="form-texto">
-                                <input class="formulario" type="text" name="txtSNumber" id="idSNumber" placeholder="Qual o número de série?" value={novaBicicleta.modelo} onChange={handleChange} />
-                            </div>
-                            
-                            <div class="form-texto">
+                            <div className="form-texto">
                                 <label for="txtDataCompra" id="lblData">Qual a data da compra da sua bike?</label>
-                                <input class="formulario" type="date" name="txtDataCompra" id="idDataCompra" placeholder="Qual a data da compra?" value={novaBicicleta.dataCompra} onChange={handleChange}/>
+                                <input class="formulario" type="date" name="dataCompra" id="idDataCompra" placeholder="Qual a data da compra?" value={novaBicicleta.dataCompra} onChange={handleChange}/>
                             </div>
                             
                                     <div className="flex items-center justify-center rounded-b-xl ">
