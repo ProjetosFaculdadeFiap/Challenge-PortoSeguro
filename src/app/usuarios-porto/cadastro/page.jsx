@@ -1,9 +1,6 @@
-"use client"; 
-"use strict";
-import Link from 'next/link'
-import './cadastro.css'
-import { useState, useEffect } from 'react'
-import { useRouter } from 'next/router';
+"use client";
+import React from "react";
+import { useState } from "react";
 
 export default function Cadastro() {
   const [novoUsuario, setNovoUsuario] = useState({
@@ -18,30 +15,24 @@ export default function Cadastro() {
     setNovoUsuario({ ...novoUsuario, [name]: value });
   };
 
-  const [successMessage, setSuccessMessage] = useState("");
-
   const handleCadastro = async (e) => {
     e.preventDefault();
 
-    try {
-      const resposta = await fetch("http://localhost:8080/porto", {
-        method: "POST",
-        body: JSON.stringify(novoUsuario),
-      });
+        try {
+          const resposta = await fetch("http://localhost:8080/porto", {
+            method: "POST",
+            body: JSON.stringify(novoUsuario),
+          });
 
       const resultado = await resposta.json();
       console.log(resultado)
       console.log(resposta.status)
 
-      if (resposta.status === 200) {
-        setSuccessMessage("Usuário cadastrado com sucesso!");
-        router.push('/usuarios-porto/lista');
-      }
+        } catch (error) {
+          console.log("ocorreu um erro no envio dos dados",error)
+        //   
+        } };
 
-    } catch (error) {
-      console.log("Seus dados não funcionaram!",error)
-    }
-  };
 
   return (
     <>
